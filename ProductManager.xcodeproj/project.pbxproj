@@ -19,6 +19,8 @@
 		5263B354197E77610025E8AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5263B33C197E77610025E8AC /* UIKit.framework */; };
 		5263B35C197E77610025E8AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5263B35A197E77610025E8AC /* InfoPlist.strings */; };
 		5263B35E197E77610025E8AC /* ProductManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5263B35D197E77610025E8AC /* ProductManagerTests.m */; };
+		5C9C797B19AF2B0B0049B900 /* ProductsManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9C797A19AF2B0B0049B900 /* ProductsManagerViewController.m */; };
+		5C9C797D19AF2B1F0049B900 /* keys in Resources */ = {isa = PBXBuildFile; fileRef = 5C9C797C19AF2B1F0049B900 /* keys */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5263B359197E77610025E8AC /* ProductManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductManagerTests-Info.plist"; sourceTree = "<group>"; };
 		5263B35B197E77610025E8AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5263B35D197E77610025E8AC /* ProductManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductManagerTests.m; sourceTree = "<group>"; };
+		5C9C797919AF2B0B0049B900 /* ProductsManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsManagerViewController.h; sourceTree = "<group>"; };
+		5C9C797A19AF2B0B0049B900 /* ProductsManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsManagerViewController.m; sourceTree = "<group>"; };
+		5C9C797C19AF2B1F0049B900 /* keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +112,11 @@
 		5263B33E197E77610025E8AC /* ProductManager */ = {
 			isa = PBXGroup;
 			children = (
+				5C9C797C19AF2B1F0049B900 /* keys */,
 				5263B347197E77610025E8AC /* PMAppDelegate.h */,
 				5263B348197E77610025E8AC /* PMAppDelegate.m */,
+				5C9C797919AF2B0B0049B900 /* ProductsManagerViewController.h */,
+				5C9C797A19AF2B0B0049B900 /* ProductsManagerViewController.m */,
 				5263B34A197E77610025E8AC /* Images.xcassets */,
 				5263B33F197E77610025E8AC /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C9C797D19AF2B1F0049B900 /* keys in Resources */,
 				5263B343197E77610025E8AC /* InfoPlist.strings in Resources */,
 				5263B34B197E77610025E8AC /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5263B345197E77610025E8AC /* main.m in Sources */,
+				5C9C797B19AF2B0B0049B900 /* ProductsManagerViewController.m in Sources */,
 				5263B349197E77610025E8AC /* PMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +448,7 @@
 				5263B363197E77610025E8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5263B364197E77610025E8AC /* Build configuration list for PBXNativeTarget "ProductManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +457,7 @@
 				5263B366197E77610025E8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

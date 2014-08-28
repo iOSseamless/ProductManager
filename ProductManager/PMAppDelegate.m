@@ -7,6 +7,7 @@
 //
 
 #import "PMAppDelegate.h"
+#import "ProductsManagerViewController.h"
 
 @implementation PMAppDelegate
 
@@ -16,6 +17,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[ProductsManagerViewController alloc] init];
     return YES;
 }
 
